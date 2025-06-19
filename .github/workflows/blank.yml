@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        python-version: [3.10, 3.12]  # Aqui define duas versões do Python
+        python-version: [3.11, 3.12]  # Aqui define duas versões do Python
 
     steps:
       - name: Checkout code
